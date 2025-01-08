@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    /* Include padding and borders in width calculations */
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    /* Prevent horizontal scroll on the entire page */
+}
+
+.food-carousel-page {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #000;
+    overflow-x: hidden;
+    /* Prevent horizontal scroll */
+}
+
+.food-carousel-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #00bfa5;
+}
+
+.category-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    /* Allow items to wrap */
+}
+
+.category-filter label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #00bfa5;
+}
+
+.category-filter select {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #00bfa5;
+    color: black;
+    background-color: rgba(23, 163, 195, 0.885);
+}
+
+.category-filter select option:hover,
+.category-filter select option:focus,
+.category-filter select option:active {
+    background-color: #00897b !important;
+    color: #fff !important;
+}
+
+.carousel-item {
+    padding: 10px;
+    flex: 1 1 100%;
+    /* Ensure items take full width */
+}
+
+.carousel-item-bg {
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid #00bfa5;
+}
+
+.carousel-item .food-item {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 10px;
+    color: #fff;
+}
+
+.food-item .add-to-cart-button {
+    padding: 8px 16px;
+    background-color: #00bfa5;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.food-item .add-to-cart-button:hover {
+    background-color: #00897b;
+}
+
+.food-item .food-item-name-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-item .food-item-name-rating p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #00bfa5;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    /* Ensure the container doesn't overflow */
+}
+
+.grid-item {
+    flex: 0 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+}
+
+@media (max-width: 1024px) {
+    .grid-item {
+        flex: 0 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-item {
+        flex: 0 1 100%;
+        max-width: 100%;
+    }
+}
+
+img {
+    max-width: 100%;
+    /* Ensure images don't overflow their containers */
+    height: auto;
+}

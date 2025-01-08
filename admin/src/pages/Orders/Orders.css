@@ -1,0 +1,114 @@
+<<<<<<< HEAD
+.order {
+    width: 70%;
+    margin-left: max(5vw, 25px);
+    margin-top: 50px;
+    color: #00bfa5;
+    /* Teal text */
+    font-size: 16px;
+    background-color: #000;
+    /* Black background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.order h3 {
+    color: #00bfa5;
+    /* Teal text */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-list {
+    margin-top: 20px;
+}
+
+=======
+>>>>>>> b71c288350e0769b1de5224297ecc13d9c6bc3ab
+.order-item {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
+    align-items: start;
+    gap: 30px;
+<<<<<<< HEAD
+    border: 1px solid #00bfa5;
+    /* Teal border */
+    background-color: #2e2e2e;
+    /* Dark background */
+    padding: 20px;
+    margin: 30px 0;
+    font-size: 14px;
+    color: #00bfa5;
+    /* Teal text */
+    border-radius: 10px;
+=======
+    border: 1px solid #004d4d;
+    /* Dark teal border */
+    padding: 20px;
+    margin: 30px 0px;
+    font-size: 14px;
+    color: #004d4d;
+    /* Dark teal text */
+>>>>>>> b71c288350e0769b1de5224297ecc13d9c6bc3ab
+}
+
+.order-item-food,
+.order-item-name {
+    font-weight: 600;
+}
+
+.order-item-name {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.order-item-address {
+    margin-bottom: 10px;
+}
+
+.order-item select {
+<<<<<<< HEAD
+    background-color: #00bfa5;
+    /* Teal background */
+    border: 1px solid #00bfa5;
+    /* Teal border */
+    color: #000;
+    /* Black text */
+    width: max(10vw, 120px);
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.order-item select option {
+    background-color: #2e2e2e;
+    /* Dark background for options */
+    color: #00bfa5;
+    /* Teal text */
+=======
+    background-color: #f0f4f4;
+    /* Light teal background */
+    border: 1px solid #004d4d;
+    /* Dark teal border */
+    width: max(10vw, 120px);
+    padding: 10px;
+    outline: none;
+>>>>>>> b71c288350e0769b1de5224297ecc13d9c6bc3ab
+}
+
+@media (max-width: 1000px) {
+    .order-item {
+        font-size: 12px;
+        grid-template-columns: 0.5fr 2fr 1fr;
+        padding: 15px 8px;
+    }
+
+    .order-item select {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .order-item img {
+        width: 40px;
+    }
+}

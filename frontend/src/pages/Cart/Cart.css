@@ -1,0 +1,232 @@
+.cart {
+<<<<<<< HEAD
+    margin: 100px auto;
+    /* Centering the cart items */
+    color: #004d4d;
+    /* Teal */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* Centering items horizontally */
+=======
+    margin: 100px 0px;
+>>>>>>> b71c288350e0769b1de5224297ecc13d9c6bc3ab
+}
+
+.cart hr {
+    height: 1px;
+    background-color: #333;
+    /* Black */
+    border: none;
+<<<<<<< HEAD
+    width: 100%;
+}
+
+.cart-items-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 90px;
+    margin-left: 60px;
+}
+
+.cart-items-table th,
+.cart-items-table td {
+    border: 1px solid #000;
+    /* Black border */
+    padding: 8px;
+    text-align: center;
+}
+
+.cart-items-table th {
+    background-color: #004d4d;
+    /* Teal */
+    color: white;
+}
+
+.cart-items-table img {
+    width: 40px;
+=======
+}
+
+.cart-items-title {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: #004d4d;
+    /* Teal */
+    font-size: max(1vw, 12px);
+}
+
+.cart-items-item {
+    margin: 10px 0px;
+    color: black;
+}
+
+.cart-items-item img {
+    width: 50px;
+}
+
+.cart-items-item div {
+    max-width: 40px;
+    text-align: center;
+    border: 1px solid #333;
+    /* Black */
+    padding: 8px 8px;
+    font-size: 12px;
+>>>>>>> b71c288350e0769b1de5224297ecc13d9c6bc3ab
+}
+
+.cart-items-remove-icon {
+    cursor: pointer;
+}
+
+.cart-bottom {
+<<<<<<< HEAD
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+=======
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw, 20px);
+>>>>>>> b71c288350e0769b1de5224297ecc13d9c6bc3ab
+}
+
+.cart-total {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+<<<<<<< HEAD
+.cart-total-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: left;
+    /* Aligning cart total table to the right */
+}
+
+.cart-total-table th,
+.cart-total-table td {
+    border: 1px solid #000;
+    /* Black border */
+    padding: 10px;
+    text-align: center;
+    color: #004d4d;
+    /* Teal */
+}
+
+.cart-total-table th {
+    background-color: #004d4d;
+    /* Teal */
+    color: white;
+}
+
+.cart-total button,
+.cart-promocode-input button {
+=======
+.cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    color: #555555;
+}
+
+.cart-total hr {
+    margin: 10px 0px;
+}
+
+.cart-total button {
+>>>>>>> b71c288350e0769b1de5224297ecc13d9c6bc3ab
+    border: none;
+    color: white;
+    background-color: #004d4d;
+    /* Teal */
+    width: max(15vw, 200px);
+<<<<<<< HEAD
+    padding: 12px 0;
+=======
+    padding: 12px 0px;
+>>>>>>> b71c288350e0769b1de5224297ecc13d9c6bc3ab
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+<<<<<<< HEAD
+.cart-promocode-input {
+    margin-top: 10px;
+    display: flex;
+=======
+.cart-promocode {
+    flex: 1;
+}
+
+.cart-promocode p {
+    color: #555555;
+}
+
+.cart-promocode-input {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+>>>>>>> b71c288350e0769b1de5224297ecc13d9c6bc3ab
+    align-items: center;
+    background-color: #333;
+    /* Black */
+    border-radius: 4px;
+}
+
+.cart-promocode-input input {
+<<<<<<< HEAD
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+}
+
+@media (max-width: 750px) {
+=======
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.cart-promocode-input button {
+    width: max(10vw, 150px);
+    padding: 12px 5px;
+    background-color: #004d4d;
+    /* Teal */
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+@media(max-width:750px) {
+>>>>>>> b71c288350e0769b1de5224297ecc13d9c6bc3ab
+    .cart-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .cart-promocode {
+        justify-content: start;
+    }
+<<<<<<< HEAD
+
+    .cart-items-table th,
+    .cart-items-table td {
+        padding: 6px;
+    }
+
+    .cart-total-table th,
+    .cart-total-table td {
+        padding: 8px;
+    }
+=======
+>>>>>>> b71c288350e0769b1de5224297ecc13d9c6bc3ab
+}
